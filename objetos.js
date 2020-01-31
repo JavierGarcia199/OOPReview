@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var clasemobile_1 = require("./clasemobile");
+var mobile1;
+mobile1 = new clasemobile_1.mobile("Nokia", "3210", "Nokia Corporation", 128, "blue", false, 1, 60.0);
+var mobile2;
+mobile2 = new clasemobile_1.mobile("¡Phone", "3G", "Apple", 128, "white", true, 2, 180);
+var mobile3;
+mobile3 = new clasemobile_1.mobile("Samsung", "Galaxy 10", "Samsung", 128, "black", true, 2, 128);
+mobile1.cameraNumber = 4;
+mobile1.is5G = true;
+mobile1.mostrarAtributos();
+mobile2.mostrarAtributos();
+mobile3.mostrarAtributos();
